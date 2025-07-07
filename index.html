@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery - CodeAlpha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">Image Gallery</h1>
+  <div class="gallery" id="gallery">
+    <div class="gallery-item"><img src="images/krishna1.jpg" alt="Lord Krishna 1" /></div>
+    <div class="gallery-item"><img src="images/krishna2.jpg" alt="Lord Krishna 2" /></div>
+    <div class="gallery-item"><img src="images/krishna3.jpg" alt="Lord Krishna 3" /></div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span id="prev">&#10094;</span>
+    <img id="lightbox-img" src="" />
+    <span id="next">&#10095;</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
